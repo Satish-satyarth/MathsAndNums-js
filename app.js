@@ -20,4 +20,20 @@ let accBalance = 1000000000;
 console.log(accBalance.toLocaleString());
 
 // en- In -> represents Indian format.
- console.log(accBalance.toLocaleString("en-IN"));
+console.log(accBalance.toLocaleString("en-IN"));
+
+// ---------- Maths ------------------
+
+let play = 4578;
+console.log(Math.min(12,54,78,95,12,10,4567));
+console.log(Math.min(12,54,78,95,12,10,4567));
+
+console.log(Math.abs(-4));
+console.log(Math.sqrt(2));
+
+console.log(Math.ceil(8.5697));
+console.log(Math.floor(8.5697));
+
+console.log(Math.random());
+console.log((Math.random()*10)+1);
+console.log(Math.floor(Math.random()*10)+1);
